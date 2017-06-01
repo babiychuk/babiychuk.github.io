@@ -1,0 +1,17 @@
+[0123/111340:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0123/111828:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0123/113245:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0123/113516:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0123/115235:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0123/115238:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0124/091928:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0209/142519.235:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0209/143618.651:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0209/145008.516:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0209/152502.487:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0209/164847.688:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0209/172402.951:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0209/172513.679:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0209/172706.021:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0210/094333.414:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0210/151356.909:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)

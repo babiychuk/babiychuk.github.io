@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <title> TASK </title>
+    <meta name="http-equiv" content="Content-type: text/html; charset=UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css"/>
+
+    <script src="./icheck/js/jquery.js"></script>
+    <script src="./icheck/js/icheck.js?v=1.0.2"></script>
+    <link href="./icheck/skins/all.css?v=1.0.2" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<div id="map_content">
+    <div id="infoStation">
+        <div class="form-group row">
+            <button id="close" class="btn btn-default" title="Згорнути">
+
+                <
+
+            </button>
+        </div>
+        </br>
+        <div >
+
+        <table>
+            <tr>
+                <td class="skin skin-flat-water"><input id="checkWater" class="icheckbox_flat-blue" type="checkbox" checked></td>
+                <td id="info_head_water_left"></td>
+
+            </tr>
+
+            <tr>
+                <td class="skin skin-flat-sun"><input id="checkSun" class="icheckbox_flat-orange" type="checkbox" checked></td>
+                <td id="info_head_sun_left"></td>
+
+            </tr>
+
+            <tr>
+                <td class="skin skin-flat-bio"><input id="checkBio" class="icheckbox_flat-green" type="checkbox" checked></td>
+                <td id="info_head_bio_left"></td>
+
+            </tr>
+
+            <tr>
+                <td class="skin skin-flat-wind"><input id="checkWind" class="icheckbox_flat-green" type="checkbox" checked></td>
+                <td id="info_head_wind_left"></td>
+
+            </tr>
+
+        </table>
+        </div>
+    </div>
+    <div id="infoButton">
+        <div class="form-group row">
+            <button id="open" class="btn btn-default" title="Розгорнути">
+
+                >
+
+            </button>
+        </div>
+    </div>
+
+    <div id="list">
+        <div class="form-group row">
+            <button id="closeList" class="btn btn-default" title="Згорнути">
+
+                <
+
+            </button>
+
+        </div>
+        <div id="unzoom">
+            <text id="text_zoom">Віддалити</text>
+        </div>
+        <div id="list_head">
+            <text id="text_list"> Місто...</text>
+
+            <div id="combobox"></div>
+
+        </div>
+
+    </div>
+    <div id="infoButtonList">
+        <div class="form-group row">
+            <button id="openList" class="btn btn-default" title="Розгорнути">
+
+                >
+
+            </button>
+        </div>
+    </div>
+    <div id="map"></div>
+
+</div>
+
+
+
+<script>
+
+
+
+    var unzoom = document.getElementById("unzoom");
+
+    var close = document.getElementById("close");
+    var infoStation = document.getElementById("infoStation");
+    var infoButton = document.getElementById("infoButton");
+
+
+    var open = document.getElementById("open");
+
+    close.addEventListener("click", function () {
+        infoStation.style.visibility = "hidden";
+        infoButton.style.visibility = "visible";
+
+    });
+
+
+    open.addEventListener("click", function () {
+        infoStation.style.visibility = "visible";
+        infoButton.style.visibility = "hidden"
+
+    });
+
+
+    var closeList = document.getElementById("closeList");
+    var list = document.getElementById("list");
+    var infoButtonList = document.getElementById("infoButtonList");
+
+    var openList = document.getElementById("openList");
+
+    closeList.addEventListener("click", function () {
+        list.style.visibility = "hidden";
+        infoButtonList.style.visibility = "visible";
+ unzoom.style.visibility = "hidden";
+
+    });
+
+
+    openList.addEventListener("click", function () {
+        list.style.visibility = "visible";
+        infoButtonList.style.visibility = "hidden"
+
+
+    });
+
+    $(function () {
+        $("#list").draggable();
+    });
+
+    $(function () {
+        $("#infoStation").draggable();
+    });
+
+
+</script>
+
+<script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
+
+<script
+        src="map.js" type="text/javascript" charset="windows-1251">
+</script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpoh-rAUxore-MM6l56NZKACNz0btPPYo&signed_in=true&language=uk&callback=initMap">
+</script>
+
+
+</body>
+
+
+</html>

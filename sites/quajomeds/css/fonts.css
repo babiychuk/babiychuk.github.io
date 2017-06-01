@@ -1,0 +1,81 @@
+/*=========================Amaranth====================*/
+
+/*Amaranth*/
+@font-face {
+    font-family: "Amaranth";
+    src: url(../fonts/Amaranth/Amaranth-Regular.otf);
+}
+
+@font-face {
+    font-family: "Amaranth";
+    src: url(../fonts/Amaranth/Amaranth-Regular.woff);
+}
+
+@font-face {
+    font-family: "Amaranth";
+    src: url(../fonts/Amaranth/Amaranth-Regular.eot);
+}
+/*Amaranth Bold*/
+@font-face {
+    font-family: "Amaranth Bold";
+    src: url(../fonts/Amaranth/Amaranth-Bold.otf);
+}
+@font-face {
+    font-family: "Amaranth Bold";
+    src: url(../fonts/Amaranth/Amaranth-Bold.woff);
+}
+
+@font-face {
+    font-family: "Amaranth Bold";
+    src: url(../fonts/Amaranth/Amaranth-Bold.eot);
+}
+
+/*=========================Pt-Sans====================*/
+
+/*Pt-Sans Regular*/
+@font-face {
+    font-family: "Pt-Sans Regular";
+    src: url(../fonts/pt-sans/PTS55F.ttf);
+}
+
+@font-face {
+    font-family: "Pt-Sans Regular";
+    src: url(../fonts/pt-sans/PTS55F.woff);
+}
+
+@font-face {
+    font-family: "Pt-Sans Regular";
+    src: url(../fonts/pt-sans/PTS55F.eot);
+}
+
+/*Pt-Sans Bold*/
+@font-face {
+    font-family: "Pt-Sans Bold";
+    src: url(../fonts/pt-sans/PTS75F.ttf);
+}
+
+@font-face {
+    font-family: "Pt-Sans Bold";
+    src: url(../fonts/pt-sans/PTS75F.woff);
+}
+
+@font-face {
+    font-family: "Pt-Sans Bold";
+    src: url(../fonts/pt-sans/PTS75F.eot);
+}
+
+/*Pt-Sans Bold Italic*/
+@font-face {
+    font-family: "Pt-Sans Bold Italic";
+    src: url(../fonts/pt-sans/PTS76F.ttf);
+}
+
+@font-face {
+    font-family: "Pt-Sans Bold Italic";
+    src: url(../fonts/pt-sans/PTS76F.woff);
+}
+
+@font-face {
+    font-family: "Pt-Sans Bold Italic";
+    src: url(../fonts/pt-sans/PTS76F.eot);
+}

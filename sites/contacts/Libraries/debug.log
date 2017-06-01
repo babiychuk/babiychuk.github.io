@@ -1,0 +1,4 @@
+[0411/134903.722:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0411/140038.820:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0411/140459.823:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0411/140624.604:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)

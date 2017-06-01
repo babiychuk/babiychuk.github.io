@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html ng-app="blogModule">
+<head>
+    <title>Babiychuk</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+    <script src="Libraries/angular.js"></script>
+    <script src="Libraries/script.js" charset="windows-1251"></script>
+    <link href="Libraries/bootstrap.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css"/>
+    <link href="Libraries/form.css" rel="stylesheet"/>
+</head>
+
+
+<body ng-controller="blogCtrl">
+
+<div class="row" ng-controller="contentCtrl">
+
+    <div class="col-md-3 col-xs-3">
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="">Menu</a></li>
+        </ul>
+        <div id="menu">
+            <div ng-click="contactsPage()"  class="button" id="Contacts">Contacts</div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-xs-6">
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="">Contact page</a></li>
+        </ul>
+
+        <div id="attentionWindow">
+            <button id="closeAt" class="btn btn-default"
+                    title="Close" ng-click="close()">X
+            </button>
+            <div style="text-align: center; font-size: 20px;font-weight: bold">Delete contact(s)?</div>
+
+            <div class="form-group row" style="margin-left: 40px">
+                <button  class="btn btn-default"
+                        ng-click="deleteContacts()">Delete
+                </button>
+                <button class="btn btn-default"
+                        ng-click="cancelDetete()">Cancel
+                </button>
+            </div>
+        </div>
+
+        <div id="createForm">
+            <button id="close" class="btn btn-default"
+                    title="Close" ng-click="close()">X
+            </button>
+            <div>
+                <table>
+                    <tr>
+                        <td><label>name</label><input class="form-control" ng-model="task.name"> </input></td>
+                        <td></td>
+                        <td><label>surname</label><input class="form-control" ng-model="task.surname"> </input></td>
+                    </tr>
+                    <tr>
+                        <td><label>age</label><input class="form-control" ng-model="task.age"> </input></td>
+                        <td></td>
+                        <td><label>group</label>
+                            <select class="form-control" ng-model="task.group" ng-options="x for x in nameGroup">
+
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>description</label><input class="form-control" ng-model="task.description"> </input></td>
+                        <td>&nbsp</td>
+                        <td><label>note</label><input class="form-control" ng-model="task.note"> </input></td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="form-group row">
+                <button id="apply" class="btn btn-default"
+                        ng-click="apply(task)">Add a new contact
+                </button>
+            </div>
+        </div>
+
+        <div id="contagtsPage">
+            <div class="row">
+                <div class="col-md-12">
+
+
+                        <ng-include src="url"></ng-include>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="col-md-3 col-xs-3">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="">Contact card</a></li>
+        </ul>
+        <div id="contagtsCard">
+            <div id="ns" style="text-align: center; font-size: 20px"></div>
+            </br>
+            </br>
+
+           <div id="info"></div>
+        </div>
+    </div>
+</div>
+
+<div id="footer" class="row">
+    <div class="col-md-12 col-xs-12">
+    </div>
+</div>
+</div>
+
+<script>
+    $(function () {
+        $("#createForm").draggable();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,298 @@
+body{
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+}
+
+nav {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:99;
+	height:94px;
+	line-height:94px;
+}
+
+.menu {
+	padding:0px;
+	margin:0;
+	list-style-type:none;	
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0px 30px;
+		
+}
+
+.menu li a {	
+	color:#ffffff;
+	text-transform:uppercase;
+	font-family:'RalewayBold', sans-serif;
+}
+
+.menu li a:hover,
+.menu li a:focus{	
+	color:#cbcfd5;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+#home {
+	cursor:pointer;
+}
+
+.title_block {	
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 40%;		
+}
+
+.title_block h1 {	
+	font-size:30px;
+	font-family:'RalewayBold',sans-serif;
+	text-align: center;
+	color: #ffffff;
+	text-transform:uppercase;
+	letter-spacing:30px;
+}
+
+.title_block p {
+	font-size:20px;
+	text-align: center;
+	color:#f2f2f2;
+	letter-spacing:5px;
+}
+
+#view {
+	color:#fff;
+}
+
+#view:hover{
+	color:#c1c1c1;
+}
+
+.classScroll {	
+	background-color:#161616; 
+    animation-name: changeNav;
+	opacity:0.8;
+    animation-duration: 2s;
+}
+ 
+
+@keyframes changeNav {
+    from {background-color: #161616;opacity:0.1;}
+    to {background-color: #161616;opacity:0.8;}
+}
+
+.first_block {
+	
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	top: 0px;
+	height: 100vh;
+	background-image: url('../img/headerBack.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+header:after{
+	content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #b33c00;
+	opacity:0.1;
+}
+
+
+.second_block {
+	width: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;
+	margin-top: 100vh;	
+}
+
+#aboutMe {
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:160px;	
+}
+
+.abiutTitle {
+	font-size:25px;
+	margin-top:-30px;
+	margin-bottom:30px;
+	text-transform: uppercase;
+}
+
+.colText {
+	text-align:justify;
+	color:#948c88;
+}
+
+.btn-outline {
+	color: #8ba4b8;
+    font-size: 12px;
+	text-transform: uppercase;
+    border: solid 2px #8ba4b8;
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover{
+	color: #ffffff;
+    border: solid 2px #8ba4b8;
+    background: #8ba4b8;
+    transition: all 0.3s ease-in-out;
+}
+
+.billG {
+	
+	text-align:justify;
+	color:#948c88;
+	font-size:20px;
+}
+
+.round {
+	float: left;
+	margin:0;
+	border-radius: 100px; 
+}
+
+.abiutSkills {
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:25px;
+	text-transform: uppercase;	
+}
+.skills{
+	margin-left:-25px;
+	text-align:center;
+}
+.skills_block{	
+	margin-bottom: 50px;
+}
+.skills_block i{
+	font-size: 60px;
+	color: #8ba4b8;
+}
+.skills_block h3{
+	text-transform: uppercase;
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 12px;
+}
+
+.footer_block{
+	padding: 10px 0;
+	background-color: #313436;
+}
+.footer_item{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer_item h5{
+	font-family: "RalewayBold", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer_item p{
+	font-size: 14px;
+	color: #9d9fb2;
+}
+
+.footer_item div{
+	font-size: 14px;
+	margin-top:30px;
+	color: #9d9fb2;
+}
+
+
+
+.copyright_block{
+	background-color: #1c1e1f;
+	text-align: center;
+	padding: 14px 0;
+}
+.copy_txt{
+	color:#0 ;
+}
+
+.soc_btn_white{
+	font-size:25px;
+	margin-top:20px;
+	border: 1px solid #fff;
+	border-radius:5px;
+	color: #fff;
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+}
+.soc_btn_white:hover{	
+	color: #313436;    
+	background: #ffffff;
+	transition: all 0.3s ease-in-out;	
+}
+
+#social {
+	position:absolute;
+	z-index:9999;
+}
+
+
+.portfolioTitle{
+	margin-top:120px;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:25px;
+	text-transform: uppercase;	
+}
+.p2 {
+	padding:2px;
+}
+
+.portfolio_work_block {
+	position:relative;
+}
+
+.image_wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(109,128,144,.7);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	opacity: 0;
+}
+
+.portfolio_work_block:hover .image_wrap{
+	opacity: 1;
+}
+.portfolio_work_dec{
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+
+.portfolio_work_dec p {
+	font-size:12px;
+}
+
+
+
+
+
+
+
+

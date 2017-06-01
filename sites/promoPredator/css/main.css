@@ -1,0 +1,143 @@
+body{
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	background-color:#e0e0e0;
+}
+.p0{
+	padding: 0;
+}
+
+/*BUTTONS*/
+
+.btn_red{
+	font-family: "TTSquaresFamilyLight", sans-serif;
+	border: 1px solid #c6cacc;
+	color: #ffffff;
+	background-color:#ff0000;
+	width: 150px;
+	height: 40px;
+}
+
+/*HEADER*/
+header{
+	height: 680px;
+	background-image: url('../img/banner.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+nav{
+	height: 94px;
+	line-height: 94px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.logo{
+	padding-top: 35px;
+}
+
+.logo2{
+	padding-left: 860px;
+	padding-top: 54px;
+}
+
+.title_block{
+	font-family: "TTSquaresFamilyRegular", sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
+.title_block h2{
+	font-size: 30px;
+	font-family: 'TTSquaresFamilyRegular', sans-serif;
+	margin-bottom: 30px;
+}
+
+/*PARAMETRS SECTION*/
+.params_s{
+	background-color:#e0e0e0;
+	padding: 20px 20px 20px 20px;
+	margin-left: -1px;
+}
+.param_block{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.param_block i{
+	font-size: 70px;
+	color: #e84545;
+}
+.param_block h3{
+	text-transform: uppercase;
+	font-family: "RalewayBold", sans-serif;
+	font-size: 18px;
+}
+.param_block p{
+	font-size: 14px;
+}
+
+/*TEAM SECTION*/
+.team_s{
+	padding: 95px 0;
+	color: #6c7279;
+}
+
+.team_item{
+	background-color:#ffffff;
+	padding:10px;
+	padding-bottom:50px;
+	margin: 1.2px -13.5px 1.5px -13.5px;	
+}
+
+.team_item h4{
+	font-family: "TTSquaresFamilyLight", sans-serif;
+	color: #666666;
+	font-size: 20px;
+	margin-top:30px;
+	margin-bottom: 30px;
+
+}
+.team_item>span{
+	font-family: "TTSquaresFamilyBold", sans-serif;
+	color: #4f4f4f;
+	font-size: 12px;
+
+}
+.team_item p{
+	font-size: 12px;
+	color: #9f9f9f;
+	margin-top:30px;
+	font-family: "TTSquaresFamilyLight", sans-serif;
+	}
+	
+del {
+	color:#ff0000;
+	font-weight:bold;
+font-family: "TTSquaresFamilyLight", sans-serif;	
+}
+
+
+
+/*FOOTER*/
+.main_footer{
+	padding: 0;
+	background-color: #000000;
+}
+
+.copyright_block{
+	padding:10px;
+	margin-top:20px;
+	background-color: #616161;	
+	height:auto;
+}
+.copy_txt{
+	color: #b0abb0;
+	font-size: 12px;
+	margin-left:30px;
+	
+}

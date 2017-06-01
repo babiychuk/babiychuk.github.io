@@ -1,0 +1,230 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+	.logo2{	
+		padding-left: 830px;
+		padding-top: 54px;
+		
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.team_item{
+		margin-bottom: 30px;
+		
+	}	
+
+.logo2{	
+		padding-left: 650px;
+		padding-top: 4px;
+		
+	}	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+	}
+
+	.logo{
+		padding-top: 0px;
+	}
+	
+	.logo2{	
+		padding-left: 640px;
+		padding-top: 0px;
+		margin:-30px;
+		
+	}
+
+	.title_block{
+		margin-top: 130px;
+	}
+	.team_item{
+		margin-bottom: 3px;
+	}
+	.download{
+		padding: 20px 0 50px 0;
+	}
+	.team_s{
+		padding: 60px 0 40px 0;
+	}
+
+}
+
+@media only screen and (max-width : 688px) {
+	
+.logo2{	
+		padding-left: 500px;
+		padding-top: 0px;
+		margin:-30px;
+		
+	}	
+	
+}
+
+@media only screen and (max-width : 560px) {
+	
+.logo2{	
+		padding-left: 400px;
+		padding-top: 0px;
+		margin:-30px;
+		
+	}	
+	
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+	}
+
+	.logo{
+		padding-top: 0px;
+	}
+	
+	.logo2{
+		padding-left: 300px;
+		padding-top: 0px;
+		
+	}
+	.title_block{
+		margin-top: 130px;
+	}
+
+	.title_block h1{
+		font-size: 30px;
+	}
+	.title_block p{
+		font-size: 14px;
+	}
+	.team_item{
+		margin-bottom:  3px;
+	}
+	.download{
+		padding: 20px 0 50px 0;
+	}
+	.team_s{
+		padding: 60px 0 40px 0;
+	}
+}
+
+
+@media only screen and (max-width : 360px) {
+	
+.logo2{	
+		padding-left: 250px;
+		padding-top: 0px;
+		margin:-30px;
+		
+	}	
+	
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+	}
+
+	.logo{
+		padding-top: 0px;
+	}
+	
+	.logo2{
+		padding-left: 250px;
+		padding-top: 0px;
+	}
+
+	.title_block{
+		margin-top: 130px;
+	}
+
+	.title_block h1{
+		font-size: 30px;
+	}
+	.title_block p{
+		font-size: 14px;
+	}
+	.team_item{
+		margin-bottom:  3px;
+	}
+	.download{
+		padding: 20px 0 50px 0;
+	}
+	.team_s{
+		padding: 60px 0 40px 0;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
